@@ -233,7 +233,7 @@ a {
     border-radius: 1rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
     margin-bottom: 1rem;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .services__container .cards .card h3 {
