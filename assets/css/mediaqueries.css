@@ -89,18 +89,12 @@
         width: 50%;
     }
 
-    .about__container .image__container .animation__blob {
-        width: 25vw;
-        height: 30vh;
-        margin-top: 2rem;
-    }
-
-    .services__container .cards {
-        flex-direction: column;
-    }
-
-    .services__container .cards .card {
-        width: 80%;
+    .about__container .image__container {
+        min-height: 250px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 5%;
     }
 }
 
@@ -121,10 +115,5 @@
         font-size: .7rem;
         width: 70%;
         margin-bottom: 5rem;
-    }
-
-    .about__container .image__container .animation__blob {
-        width: 30vw;
-        height: 20vh;
     }
 }
