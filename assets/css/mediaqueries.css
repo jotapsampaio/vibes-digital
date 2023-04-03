@@ -91,10 +91,17 @@
 
     .about__container .image__container {
         min-height: 250px;
-        width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
         border-radius: 5%;
+    }
+
+    .services__container .cards {
+        flex-direction: column;
+    }
+
+    .services__container .cards .card {
+        width: 100%;
     }
 }
 
@@ -115,5 +122,11 @@
         font-size: .7rem;
         width: 70%;
         margin-bottom: 5rem;
+    }
+
+    .about__container .image__container {
+        width: 100%;
+        background-size: cover;
+        background-position: center top;
     }
 }
